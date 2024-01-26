@@ -10,7 +10,19 @@ $home/avail-madara<br>
 
 
 ## 1.Madara CLI
-  ### 1.リポリトジからクローンを作成
+  ### (1).リポリトジからクローンを作成＆ビルド
   ```
   git clone https://github.com/karnotxyz/madara-cli
+  
   ```
+  ### (2).依存関係のインストール
+  OpenSSLがなかったのでインストール
+  ```
+  sudo apt-get install libssl-dev
+  export PKG_CONFIG_PATH=/usr/lib/pkgconfig
+  ```
+  ### (3).新しいアプリチェーンの初期化
+  ```
+  ./target/release/madara init
+  ```
+  
