@@ -25,4 +25,10 @@ $home/avail-madara<br>
   ```
   ./target/release/madara init
   ```
+  ### (4).実行
+  ```
+  screen -S madara
+  ./target/release/madara run
+  ```
+
   
