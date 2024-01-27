@@ -30,5 +30,9 @@ $home/avail-madara<br>
   screen -S madara
   ./target/release/madara run
   ```
+  ### (5).エクスプローラーの起動
+  ```
+  screen -S explorer
+  ./target/release/madara explorer
+  ```
 
-  
